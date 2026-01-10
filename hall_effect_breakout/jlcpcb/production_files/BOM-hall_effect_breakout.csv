@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100n,C2,C_0603_1608Metric,C268011,1
+10k,TH1,R_0603_1608Metric,C162670,1
+10k,R1,R_0603_1608Metric,C98220,1
+10u,C1,C_0603_1608Metric,C90053,1
+AS5048A,U1,TSSOP-14_4.4x5mm_P0.65mm,C2655181,1
+Conn_01x06,J3,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,C133065,1
+LED,D1,LED_0603_1608Metric,C83904,1
+SMF5V0A,D2,D_SMF,C1972946,1
+TestPoint_Alt,H3,TestPoint_Pad_D1.5mm,,1
+TestPoint_Alt,H2,TestPoint_Pad_D1.5mm,,1
+TestPoint_Alt,H1,TestPoint_Pad_D1.5mm,,1
+TestPoint_Alt,5V,TestPoint_Pad_D1.5mm,,1
+TestPoint_Alt,GND,TestPoint_Pad_D1.5mm,,1
+TestPoint_Alt,TMP,TestPoint_Pad_D1.5mm,,1
