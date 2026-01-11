@@ -2091,6 +2091,12 @@
 		(uuid "8f913f01-b076-49f3-8288-231b5fdab2dd")
 	)
 	(junction
+		(at 128.27 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d80e459-e065-4059-8847-c20400074daa")
+	)
+	(junction
 		(at 196.85 104.14)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -2909,7 +2915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 41.91 96.52 0)
 			(effects
 				(font
@@ -3038,7 +3044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 41.91 86.36 0)
 			(effects
 				(font
@@ -3598,6 +3604,73 @@
 			(project "hall_effect_breakout"
 				(path "/e3e441f5-0ec8-4dc7-b777-9c3d0f59fcdb"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b8e2601-43b1-456d-857c-73e92e5b5f54")
+		(property "Reference" "#PWR08"
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 124.46 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e28823d9-6f33-4dd5-a534-749fb3b588da")
+		)
+		(instances
+			(project "hall_effect_breakout"
+				(path "/e3e441f5-0ec8-4dc7-b777-9c3d0f59fcdb"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4179,7 +4252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 41.91 91.44 0)
 			(effects
 				(font
@@ -4313,7 +4386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 41.91 81.28 0)
 			(effects
 				(font
